@@ -6,8 +6,8 @@
 
 body {
     font-family: ' Roboto','sans-serif';
-    background-color: aquamarine;
-    color: black;
+    background-color: hsl(205, 100%, 86%);
+    color: rgb(0, 0, 0);
 }
 
 main {
@@ -15,7 +15,9 @@ main {
     margin: 0 auto;
 }
 
-/*section/*/
+section{
+    padding: 20px ;
+}
 
 figure {
     max-width: 160px;
@@ -38,13 +40,15 @@ p{
 .card-container{
     display: flex;
     justify-content: space-between;
+
 }
 
 .card{
-    width: 160px ;
+    width: 260px ;
     padding: 10px ;
-    border: 1px solid #c0cdd3;
+    border: 1px solid hsl(165, 20%, 59%);
     border-radius: 6px;
+    background-color:hsl(191, 65%, 57%);
 }
 
 .card ul li{
